@@ -1,0 +1,57 @@
+2022-11-29 20:18:02.940 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\huach\nacos\config
+2022-11-29 20:18:03.123 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2022-11-29 20:18:03.299 [main] INFO  com.alibaba.nacos.client.config.utils.JVMUtil - isMultiInstance:false
+2022-11-29 20:18:03.700 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dc-cus-provider-lfh.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-dc-cus-provider-lfh,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rabbitmq.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app-cs.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mysql.properties,LOCAL_GROUP'}]
+2022-11-29 20:18:03.715 [main] INFO  com.bairh.cus.provider.CusProviderApplication - No active profile set, falling back to default profiles: default
+2022-11-29 20:18:11.616 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-29 20:18:11.623 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-11-29 20:18:12.571 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 724ms. Found 0 repository interfaces.
+2022-11-29 20:18:13.842 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5f9556f5-458b-3bd7-a27c-92eebed3fd1d
+2022-11-29 20:18:14.815 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-29 20:18:19.776 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 28111 (http)
+2022-11-29 20:18:19.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-28111"]
+2022-11-29 20:18:19.829 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-29 20:18:19.851 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-11-29 20:18:20.998 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/cus] - Initializing Spring embedded WebApplicationContext
+2022-11-29 20:18:20.998 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 17143 ms
+2022-11-29 20:18:25.076 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2022-11-29 20:18:32.008 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-29 20:18:36.552 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2022-11-29 20:18:36.561 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2022-11-29 20:18:39.380 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-29 20:18:39.391 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-29 20:18:39.647 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-29 20:18:40.848 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2022-11-29 20:18:40.859 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-11-29 20:18:40.861 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2022-11-29 20:18:40.862 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-11-29 20:18:43.154 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-11-29 20:18:43.189 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-11-29 20:18:43.215 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-11-29 20:18:46.256 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: staffListUsingGET_1
+2022-11-29 20:18:47.309 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-11-29 20:18:47.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-28111"]
+2022-11-29 20:18:47.431 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 28111 (http) with context path '/cus'
+2022-11-29 20:18:47.439 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.168","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":28111,"scheduled":false,"serviceName":"DEFAULT_GROUP@@dc-cus-provider-lfh","stopped":false,"weight":1.0} to beat map.
+2022-11-29 20:18:47.755 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd registering service DEFAULT_GROUP@@dc-cus-provider-lfh with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.168","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":28111,"weight":1.0}
+2022-11-29 20:18:47.843 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dc-cus-provider-lfh 192.168.31.168:28111 register finished
+2022-11-29 20:18:48.803 [main] INFO  com.bairh.cus.provider.CusProviderApplication - Started CusProviderApplication in 59.493 seconds (JVM running for 64.725)
+2022-11-29 20:18:48.809 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] rabbitmq.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-29 20:18:48.810 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=rabbitmq.properties, group=LOCAL_GROUP, cnt=1
+2022-11-29 20:18:48.810 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] dc-cus-provider-lfh+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-29 20:18:48.810 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=dc-cus-provider-lfh, group=DEFAULT_GROUP, cnt=1
+2022-11-29 20:18:48.811 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] redis.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-29 20:18:48.811 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=redis.properties, group=LOCAL_GROUP, cnt=1
+2022-11-29 20:18:48.811 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] dc-cus-provider-lfh.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-29 20:18:48.812 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=dc-cus-provider-lfh.properties, group=DEFAULT_GROUP, cnt=1
+2022-11-29 20:18:48.813 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] mysql.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-29 20:18:48.813 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=mysql.properties, group=LOCAL_GROUP, cnt=1
+2022-11-29 20:18:48.814 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] app-cs.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-29 20:18:48.814 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=app-cs.properties, group=DEFAULT_GROUP, cnt=1
+2022-11-29 20:19:49.984 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-11-29 20:19:49.987 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@dc-cus-provider-lfh:192.168.31.168:28111 from beat map.
+2022-11-29 20:19:49.988 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd deregistering service DEFAULT_GROUP@@dc-cus-provider-lfh with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.31.168","ipDeleteTimeout":30000,"metadata":{},"port":28111,"weight":1.0}
+2022-11-29 20:19:50.064 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-11-29 20:19:50.066 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-29 20:19:50.086 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-29 20:19:50.108 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

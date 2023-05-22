@@ -1,0 +1,31 @@
+2022-07-26 16:28:09.004 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc] & group[DEFAULT_GROUP]
+2022-07-26 16:28:09.152 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc.properties] & group[DEFAULT_GROUP]
+2022-07-26 16:28:10.432 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-26 16:28:10.434 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-26 16:28:24.081 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-26 16:28:24.088 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-26 17:14:52.178 [springSessionRedisMessageListenerContainer-829] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session e29a7279-d222-4731-bd02-c57f7e80b441
+2022-07-26 17:25:48.315 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 17:25:58.387 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:07:29.364 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:07:39.479 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:07:49.576 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:07:59.670 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:08:09.766 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:08:19.868 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:08:29.964 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:08:40.155 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:08:50.469 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:09:01.063 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:09:12.167 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:09:24.254 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:09:38.462 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:09:56.750 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:10:23.156 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:11:03.258 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.1.11:6379]: connection timed out: /192.168.1.11:6379
+2022-07-26 18:11:35.029 [springSessionRedisMessageListenerContainer-1669] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session 6628f302-7701-4898-a4e4-6e77142d0e47
+2022-07-26 21:24:04.417 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2022-07-26 21:24:04.417 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-26 21:24:04.418 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2022-07-26 21:24:04.421 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2022-07-26 21:24:11.968 [SpringContextShutdownHook] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException

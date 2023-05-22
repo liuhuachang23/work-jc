@@ -1,0 +1,314 @@
+2022-10-18 14:47:57.002 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\huach\nacos\config
+2022-10-18 14:47:57.035 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2022-10-18 14:47:57.322 [main] INFO  com.alibaba.nacos.client.config.utils.JVMUtil - isMultiInstance:false
+2022-10-18 14:47:58.497 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dc-chan-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-dc-chan-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,module-service-provider'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mysql.properties,DEFAULT_GROUP'}]
+2022-10-18 14:47:58.543 [main] INFO  c.b.chan.service.provider.ChenProviderApplication - No active profile set, falling back to default profiles: default
+2022-10-18 14:47:59.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-18 14:47:59.611 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-10-18 14:47:59.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2022-10-18 14:47:59.881 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4a44ff0e-389b-36b1-b716-a41efd18f19d
+2022-10-18 14:48:00.101 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-18 14:48:00.357 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 31001 (http)
+2022-10-18 14:48:00.366 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-31001"]
+2022-10-18 14:48:00.366 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-18 14:48:00.367 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-10-18 14:48:00.489 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/chan] - Initializing Spring embedded WebApplicationContext
+2022-10-18 14:48:00.489 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1926 ms
+2022-10-18 14:48:00.806 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2022-10-18 14:48:05.517 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-10-18 14:48:09.675 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2022-10-18 14:48:09.676 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2022-10-18 14:48:10.603 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-18 14:48:10.608 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-18 14:48:10.715 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-18 14:48:11.180 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2022-10-18 14:48:11.186 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-10-18 14:48:11.186 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2022-10-18 14:48:11.187 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-10-18 14:48:11.974 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-10-18 14:48:11.994 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-10-18 14:48:12.005 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-10-18 14:48:12.159 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingPOST_1
+2022-10-18 14:48:12.374 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_1
+2022-10-18 14:48:12.378 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_1
+2022-10-18 14:48:12.393 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2022-10-18 14:48:12.400 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_2
+2022-10-18 14:48:12.402 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_2
+2022-10-18 14:48:12.403 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2022-10-18 14:48:12.422 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2022-10-18 14:48:12.587 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_1
+2022-10-18 14:48:12.589 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: allListUsingGET_1
+2022-10-18 14:48:12.590 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: editUsingPUT_1
+2022-10-18 14:48:12.591 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getInfoUsingGET_1
+2022-10-18 14:48:12.593 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_2
+2022-10-18 14:48:12.627 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: treeListByOrgIdUsingGET_1
+2022-10-18 14:48:12.673 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_3
+2022-10-18 14:48:12.690 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2022-10-18 14:48:12.699 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_2
+2022-10-18 14:48:12.717 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_3
+2022-10-18 14:48:12.736 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateSupplierUsingPOST_1
+2022-10-18 14:48:13.383 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-10-18 14:48:13.391 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-31001"]
+2022-10-18 14:48:13.409 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 31001 (http) with context path '/chan'
+2022-10-18 14:48:13.412 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"172.20.10.3","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":31001,"scheduled":false,"serviceName":"DEFAULT_GROUP@@dc-chan-provider-lhc","stopped":false,"weight":1.0} to beat map.
+2022-10-18 14:48:13.492 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd registering service DEFAULT_GROUP@@dc-chan-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"172.20.10.3","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":31001,"weight":1.0}
+2022-10-18 14:48:13.748 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dc-chan-provider-lhc 172.20.10.3:31001 register finished
+2022-10-18 14:48:14.122 [main] INFO  c.b.chan.service.provider.ChenProviderApplication - Started ChenProviderApplication in 19.014 seconds (JVM running for 21.231)
+2022-10-18 14:48:14.126 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] app.properties+module-service-provider+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 14:48:14.127 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=app.properties, group=module-service-provider, cnt=1
+2022-10-18 14:48:14.127 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] dc-chan-provider-lhc.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 14:48:14.127 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=dc-chan-provider-lhc.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-18 14:48:14.128 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] mysql.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 14:48:14.128 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=mysql.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-18 14:48:14.128 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] redis.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 14:48:14.128 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=redis.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-18 14:48:14.128 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] dc-chan-provider-lhc+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 14:48:14.128 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=dc-chan-provider-lhc, group=DEFAULT_GROUP, cnt=1
+2022-10-18 15:01:04.304 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-10-18 15:01:04.306 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@dc-chan-provider-lhc:172.20.10.3:31001 from beat map.
+2022-10-18 15:01:04.307 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd deregistering service DEFAULT_GROUP@@dc-chan-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"172.20.10.3","ipDeleteTimeout":30000,"metadata":{},"port":31001,"weight":1.0}
+2022-10-18 15:01:04.594 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-10-18 15:01:04.675 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-18 15:01:04.876 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-10-18 15:01:05.065 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-10-18 15:01:21.425 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\huach\nacos\config
+2022-10-18 15:01:21.467 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2022-10-18 15:01:21.740 [main] INFO  com.alibaba.nacos.client.config.utils.JVMUtil - isMultiInstance:false
+2022-10-18 15:01:22.904 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dc-chan-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-dc-chan-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,module-service-provider'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mysql.properties,DEFAULT_GROUP'}]
+2022-10-18 15:01:23.042 [main] INFO  c.b.chan.service.provider.ChenProviderApplication - No active profile set, falling back to default profiles: default
+2022-10-18 15:01:24.338 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-18 15:01:24.341 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-10-18 15:01:24.416 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2022-10-18 15:01:24.778 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4a44ff0e-389b-36b1-b716-a41efd18f19d
+2022-10-18 15:01:25.080 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-18 15:01:25.435 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 31001 (http)
+2022-10-18 15:01:25.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-31001"]
+2022-10-18 15:01:25.446 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-18 15:01:25.446 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-10-18 15:01:25.598 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/chan] - Initializing Spring embedded WebApplicationContext
+2022-10-18 15:01:25.599 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2508 ms
+2022-10-18 15:01:25.986 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2022-10-18 15:01:30.701 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-10-18 15:01:34.503 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2022-10-18 15:01:34.505 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2022-10-18 15:01:35.442 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-18 15:01:35.446 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-18 15:01:35.542 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-18 15:01:35.987 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2022-10-18 15:01:35.991 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-10-18 15:01:35.992 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2022-10-18 15:01:35.992 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-10-18 15:01:36.800 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-10-18 15:01:36.815 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-10-18 15:01:36.828 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-10-18 15:01:36.990 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingPOST_1
+2022-10-18 15:01:37.226 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_1
+2022-10-18 15:01:37.231 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_1
+2022-10-18 15:01:37.249 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2022-10-18 15:01:37.258 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_2
+2022-10-18 15:01:37.260 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_2
+2022-10-18 15:01:37.262 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2022-10-18 15:01:37.285 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2022-10-18 15:01:37.493 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_1
+2022-10-18 15:01:37.494 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: allListUsingGET_1
+2022-10-18 15:01:37.496 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: editUsingPUT_1
+2022-10-18 15:01:37.498 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getInfoUsingGET_1
+2022-10-18 15:01:37.499 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_2
+2022-10-18 15:01:37.534 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: treeListByOrgIdUsingGET_1
+2022-10-18 15:01:37.593 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_3
+2022-10-18 15:01:37.614 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2022-10-18 15:01:37.624 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_2
+2022-10-18 15:01:37.648 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_3
+2022-10-18 15:01:37.675 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateSupplierUsingPOST_1
+2022-10-18 15:01:38.252 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-10-18 15:01:38.257 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-31001"]
+2022-10-18 15:01:38.272 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 31001 (http) with context path '/chan'
+2022-10-18 15:01:38.275 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"172.20.10.3","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":31001,"scheduled":false,"serviceName":"DEFAULT_GROUP@@dc-chan-provider-lhc","stopped":false,"weight":1.0} to beat map.
+2022-10-18 15:01:38.378 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd registering service DEFAULT_GROUP@@dc-chan-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"172.20.10.3","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":31001,"weight":1.0}
+2022-10-18 15:01:38.652 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dc-chan-provider-lhc 172.20.10.3:31001 register finished
+2022-10-18 15:01:39.011 [main] INFO  c.b.chan.service.provider.ChenProviderApplication - Started ChenProviderApplication in 20.481 seconds (JVM running for 22.208)
+2022-10-18 15:01:39.015 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] app.properties+module-service-provider+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 15:01:39.016 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=app.properties, group=module-service-provider, cnt=1
+2022-10-18 15:01:39.017 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] dc-chan-provider-lhc.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 15:01:39.017 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=dc-chan-provider-lhc.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-18 15:01:39.017 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] mysql.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 15:01:39.017 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=mysql.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-18 15:01:39.017 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] redis.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 15:01:39.017 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=redis.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-18 15:01:39.018 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] dc-chan-provider-lhc+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-18 15:01:39.018 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=dc-chan-provider-lhc, group=DEFAULT_GROUP, cnt=1
+2022-10-18 18:01:19.682 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.1.17:6379
+2022-10-18 18:01:29.864 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:01:39.959 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:01:50.066 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:02:00.163 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:02:10.259 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:02:20.359 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:02:30.564 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:02:40.857 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:02:51.458 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:03:02.562 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:03:14.657 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:03:28.858 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:03:47.162 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:04:13.657 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:04:53.760 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:05:33.859 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:06:13.957 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:06:54.058 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:07:34.157 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:08:14.262 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:08:54.357 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:09:34.462 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:10:14.557 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:10:54.666 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:11:34.756 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:12:14.864 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:12:54.968 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:13:35.057 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:14:15.167 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:14:55.260 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:15:35.363 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:16:15.457 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:16:55.561 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:17:35.662 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:18:15.766 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:18:55.863 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:19:35.966 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:20:16.057 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:20:56.164 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:21:36.261 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:22:16.367 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:22:56.461 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:23:36.559 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:24:16.666 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:24:56.767 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:25:36.864 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:26:16.957 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:26:57.062 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:27:37.160 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:28:17.257 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:28:57.361 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:29:37.457 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:30:17.557 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:30:57.659 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:31:37.758 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:32:17.863 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:32:57.964 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:33:38.057 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:34:18.159 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:34:58.258 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:35:38.367 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:36:18.461 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:36:58.559 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:37:38.660 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:38:18.762 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:38:58.863 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:39:38.965 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:40:19.057 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:40:59.160 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:41:39.258 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:42:19.358 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:42:59.466 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:43:39.559 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:44:19.657 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:44:59.758 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:45:39.863 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:46:19.965 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:47:00.057 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:47:40.167 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:48:20.264 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 18:48:20.458 [lettuce-nioEventLoop-4-3] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 192.168.1.17:6379
+2022-10-18 23:04:19.326 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.1.17:6379
+2022-10-18 23:04:29.424 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:04:39.521 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:04:49.622 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:04:59.721 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:05:09.823 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:05:19.927 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:05:30.139 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:05:40.421 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:05:51.023 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:06:02.121 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:06:14.222 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:06:28.421 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:06:46.721 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:07:13.130 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:07:53.221 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:08:33.324 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:09:13.427 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:09:53.525 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:10:33.622 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:11:13.724 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:11:53.826 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:12:33.932 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:13:14.025 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:13:54.122 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:14:34.230 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:15:14.327 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:15:54.421 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:16:34.529 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:17:14.624 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:17:54.722 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:18:34.820 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:19:14.926 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:19:55.029 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:20:35.124 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:21:15.221 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:21:55.328 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:22:35.421 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:23:15.530 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:23:55.622 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:24:35.722 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:25:15.826 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:25:55.926 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:26:36.021 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:27:16.120 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:27:56.220 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:28:36.320 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:29:16.422 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:29:56.521 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:30:36.620 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:31:16.726 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:31:56.829 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:32:36.924 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:33:17.031 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:33:57.133 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:34:37.231 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:35:17.324 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:35:57.423 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:36:37.521 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:37:17.622 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:37:57.720 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:38:37.827 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:39:17.921 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:39:58.031 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:40:38.120 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:41:18.221 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:41:58.328 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:42:38.421 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:43:18.524 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:43:58.632 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:44:38.731 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:45:18.821 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:45:58.925 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:46:39.020 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:47:19.129 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:47:59.221 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:48:39.323 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:49:19.431 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:49:59.521 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:50:39.621 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:51:19.729 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:51:59.826 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:52:39.925 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:53:20.021 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:54:00.123 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:54:40.227 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:55:20.327 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:56:00.424 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:56:40.524 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:57:20.631 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:58:00.731 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:58:40.825 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379
+2022-10-18 23:59:20.920 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.1.17:6379

@@ -1,0 +1,487 @@
+2022-11-07 10:05:26.094 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\huach\nacos\config
+2022-11-07 10:05:26.144 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2022-11-07 10:05:26.255 [main] INFO  com.alibaba.nacos.client.config.utils.JVMUtil - isMultiInstance:false
+2022-11-07 10:05:26.523 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,XGATEWAY_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-mysql.properties,LOCAL_GROUP'}]
+2022-11-07 10:05:26.529 [main] INFO  c.b.xgateway.provider.XgatewayProviderApplication - No active profile set, falling back to default profiles: default
+2022-11-07 10:05:28.052 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-07 10:05:28.054 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-11-07 10:05:28.105 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2022-11-07 10:05:28.456 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f4c05557-1879-3001-8b56-5a2cd5a8431b
+2022-11-07 10:05:28.585 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.bairh.xgateway.provider.config.ShiroConfig$$EnhancerBySpringCGLIB$$919e62b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:28.831 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:28.835 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [com.bairh.xgateway.provider.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$ec4c5cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:28.844 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:28.851 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$76f9a28b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:28.852 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$52dd2b63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:28.854 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-07 10:05:28.910 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:33.944 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-07 10:05:33.944 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.024 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.043 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.045 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysMenuDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.049 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysMenuDao' of type [com.sun.proxy.$Proxy115] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.055 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.057 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserDao' of type [com.sun.proxy.$Proxy116] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserTokenDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.064 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserTokenDao' of type [com.sun.proxy.$Proxy117] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.065 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroServiceImpl' of type [com.bairh.xgateway.provider.modules.sys.service.impl.ShiroServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.065 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'OAuth2Realm' of type [com.bairh.xgateway.provider.modules.sys.oauth2.OAuth2Realm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:41.907 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:42.032 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:42.086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 10:05:42.897 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 24501 (http)
+2022-11-07 10:05:42.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-24501"]
+2022-11-07 10:05:42.912 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-07 10:05:42.912 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-11-07 10:05:43.243 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/xgateway/web] - Initializing Spring embedded WebApplicationContext
+2022-11-07 10:05:43.243 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 16685 ms
+2022-11-07 10:05:48.488 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 加载公众号配置...
+2022-11-07 10:05:48.674 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 加载到1条公众号配置
+2022-11-07 10:05:48.837 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 公众号配置加载完成
+2022-11-07 10:05:49.519 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2022-11-07 10:05:49.521 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2022-11-07 10:05:50.501 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-07 10:05:50.571 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-07 10:05:50.578 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-07 10:05:50.899 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-07 10:05:51.711 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2022-11-07 10:05:51.717 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-11-07 10:05:51.718 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2022-11-07 10:05:51.718 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-11-07 10:05:52.689 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-11-07 10:05:52.707 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-11-07 10:05:52.753 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-11-07 10:05:52.917 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getQuestionsUsingGET_1
+2022-11-07 10:05:52.942 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2022-11-07 10:05:52.944 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_1
+2022-11-07 10:05:52.947 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2022-11-07 10:05:52.955 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2022-11-07 10:05:52.962 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2022-11-07 10:05:52.965 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_2
+2022-11-07 10:05:52.967 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_2
+2022-11-07 10:05:52.973 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2022-11-07 10:05:52.984 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2022-11-07 10:05:53.005 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_3
+2022-11-07 10:05:53.007 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_3
+2022-11-07 10:05:53.009 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_3
+2022-11-07 10:05:53.012 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2022-11-07 10:05:53.013 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_2
+2022-11-07 10:05:53.016 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_4
+2022-11-07 10:05:53.032 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_4
+2022-11-07 10:05:53.034 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_4
+2022-11-07 10:05:53.038 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_5
+2022-11-07 10:05:53.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2022-11-07 10:05:53.046 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_3
+2022-11-07 10:05:53.050 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_5
+2022-11-07 10:05:53.052 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_6
+2022-11-07 10:05:53.066 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_6
+2022-11-07 10:05:53.068 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_5
+2022-11-07 10:05:53.070 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_7
+2022-11-07 10:05:53.073 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2022-11-07 10:05:53.074 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectUsingGET_1
+2022-11-07 10:05:53.076 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_4
+2022-11-07 10:05:53.099 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_7
+2022-11-07 10:05:53.101 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_6
+2022-11-07 10:05:53.103 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_7
+2022-11-07 10:05:53.104 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_8
+2022-11-07 10:05:53.116 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_6
+2022-11-07 10:05:53.118 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_5
+2022-11-07 10:05:53.121 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_8
+2022-11-07 10:05:53.122 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_8
+2022-11-07 10:05:53.124 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_9
+2022-11-07 10:05:53.127 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_7
+2022-11-07 10:05:53.129 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_6
+2022-11-07 10:05:53.132 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_9
+2022-11-07 10:05:53.133 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_9
+2022-11-07 10:05:53.134 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_10
+2022-11-07 10:05:53.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_8
+2022-11-07 10:05:53.223 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_10
+2022-11-07 10:05:53.225 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_10
+2022-11-07 10:05:53.227 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_11
+2022-11-07 10:05:53.269 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_11
+2022-11-07 10:05:53.270 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_11
+2022-11-07 10:05:53.272 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_12
+2022-11-07 10:05:53.290 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: nativePayUsingPOST_1
+2022-11-07 10:05:53.308 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingGET_1
+2022-11-07 10:05:53.309 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingHEAD_1
+2022-11-07 10:05:53.310 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPOST_1
+2022-11-07 10:05:53.310 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPUT_1
+2022-11-07 10:05:53.311 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPATCH_1
+2022-11-07 10:05:53.312 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingDELETE_1
+2022-11-07 10:05:53.313 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingOPTIONS_1
+2022-11-07 10:05:53.314 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingTRACE_1
+2022-11-07 10:05:53.324 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_12
+2022-11-07 10:05:53.325 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_12
+2022-11-07 10:05:53.327 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_13
+2022-11-07 10:05:53.346 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_13
+2022-11-07 10:05:53.348 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_14
+2022-11-07 10:05:53.350 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_9
+2022-11-07 10:05:53.951 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-11-07 10:05:53.957 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-24501"]
+2022-11-07 10:05:53.974 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 24501 (http) with context path '/xgateway/web'
+2022-11-07 10:05:53.977 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.169","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":24501,"scheduled":false,"serviceName":"DEFAULT_GROUP@@xgateway-service-provider-lhc","stopped":false,"weight":1.0} to beat map.
+2022-11-07 10:05:54.035 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd registering service DEFAULT_GROUP@@xgateway-service-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.169","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":24501,"weight":1.0}
+2022-11-07 10:05:54.106 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xgateway-service-provider-lhc 192.168.31.169:24501 register finished
+2022-11-07 10:05:54.428 [main] INFO  c.b.xgateway.provider.XgatewayProviderApplication - Started XgatewayProviderApplication in 31.098 seconds (JVM running for 33.087)
+2022-11-07 10:05:54.431 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-service-provider-lhc.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 10:05:54.431 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-service-provider-lhc.properties, group=DEFAULT_GROUP, cnt=1
+2022-11-07 10:05:54.433 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-mysql.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 10:05:54.433 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-mysql.properties, group=LOCAL_GROUP, cnt=1
+2022-11-07 10:05:54.433 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-service-provider-lhc+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 10:05:54.433 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-service-provider-lhc, group=DEFAULT_GROUP, cnt=1
+2022-11-07 10:05:54.433 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] redis.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 10:05:54.433 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=redis.properties, group=LOCAL_GROUP, cnt=1
+2022-11-07 10:05:54.434 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] app.properties+XGATEWAY_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 10:05:54.434 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=app.properties, group=XGATEWAY_GROUP, cnt=1
+2022-11-07 11:00:19.401 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-11-07 11:00:19.402 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@xgateway-service-provider-lhc:192.168.31.169:24501 from beat map.
+2022-11-07 11:00:19.403 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd deregistering service DEFAULT_GROUP@@xgateway-service-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.31.169","ipDeleteTimeout":30000,"metadata":{},"port":24501,"weight":1.0}
+2022-11-07 11:00:19.464 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-11-07 11:00:19.466 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-07 11:00:20.668 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-07 11:00:20.699 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-07 11:00:34.433 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\huach\nacos\config
+2022-11-07 11:00:34.619 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2022-11-07 11:00:34.883 [main] INFO  com.alibaba.nacos.client.config.utils.JVMUtil - isMultiInstance:false
+2022-11-07 11:00:35.149 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,XGATEWAY_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-mysql.properties,LOCAL_GROUP'}]
+2022-11-07 11:00:35.159 [main] INFO  c.b.xgateway.provider.XgatewayProviderApplication - No active profile set, falling back to default profiles: default
+2022-11-07 11:00:38.113 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-07 11:00:38.117 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-11-07 11:00:38.195 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 0 repository interfaces.
+2022-11-07 11:00:38.638 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f4c05557-1879-3001-8b56-5a2cd5a8431b
+2022-11-07 11:00:38.746 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.bairh.xgateway.provider.config.ShiroConfig$$EnhancerBySpringCGLIB$$2ee5a6aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:39.018 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:39.024 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [com.bairh.xgateway.provider.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$ac0c09c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:39.033 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:39.042 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$1440e682] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:39.044 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$f0246f5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:39.047 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-07 11:00:39.122 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:42.634 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-07 11:00:42.634 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.695 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.701 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.701 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysMenuDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.703 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysMenuDao' of type [com.sun.proxy.$Proxy115] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.706 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.707 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserDao' of type [com.sun.proxy.$Proxy116] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.709 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserTokenDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.710 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserTokenDao' of type [com.sun.proxy.$Proxy117] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.710 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroServiceImpl' of type [com.bairh.xgateway.provider.modules.sys.service.impl.ShiroServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:43.710 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'OAuth2Realm' of type [com.bairh.xgateway.provider.modules.sys.oauth2.OAuth2Realm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:44.265 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:44.361 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:44.406 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:00:45.015 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 24501 (http)
+2022-11-07 11:00:45.028 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-24501"]
+2022-11-07 11:00:45.028 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-07 11:00:45.029 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-11-07 11:00:45.213 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/xgateway/web] - Initializing Spring embedded WebApplicationContext
+2022-11-07 11:00:45.213 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9972 ms
+2022-11-07 11:00:47.771 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 加载公众号配置...
+2022-11-07 11:00:48.012 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 加载到1条公众号配置
+2022-11-07 11:00:48.143 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 公众号配置加载完成
+2022-11-07 11:00:49.189 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2022-11-07 11:00:49.192 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2022-11-07 11:00:50.252 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-07 11:00:50.304 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-07 11:00:50.311 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-07 11:00:50.534 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-07 11:00:51.192 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2022-11-07 11:00:51.200 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-11-07 11:00:51.201 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2022-11-07 11:00:51.201 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-11-07 11:00:52.342 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-11-07 11:00:52.363 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-11-07 11:00:52.417 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-11-07 11:00:52.652 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getQuestionsUsingGET_1
+2022-11-07 11:00:52.688 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2022-11-07 11:00:52.691 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_1
+2022-11-07 11:00:52.697 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2022-11-07 11:00:52.707 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2022-11-07 11:00:52.716 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2022-11-07 11:00:52.722 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_2
+2022-11-07 11:00:52.725 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_2
+2022-11-07 11:00:52.733 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2022-11-07 11:00:52.749 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2022-11-07 11:00:52.778 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_3
+2022-11-07 11:00:52.782 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_3
+2022-11-07 11:00:52.784 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_3
+2022-11-07 11:00:52.862 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2022-11-07 11:00:52.866 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_2
+2022-11-07 11:00:52.869 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_4
+2022-11-07 11:00:52.912 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_4
+2022-11-07 11:00:52.915 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_4
+2022-11-07 11:00:52.922 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_5
+2022-11-07 11:00:52.930 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2022-11-07 11:00:52.939 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_3
+2022-11-07 11:00:52.945 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_5
+2022-11-07 11:00:52.948 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_6
+2022-11-07 11:00:52.972 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_6
+2022-11-07 11:00:52.975 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_5
+2022-11-07 11:00:52.978 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_7
+2022-11-07 11:00:52.983 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2022-11-07 11:00:52.985 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectUsingGET_1
+2022-11-07 11:00:52.987 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_4
+2022-11-07 11:00:52.991 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_7
+2022-11-07 11:00:52.994 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_6
+2022-11-07 11:00:52.996 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_7
+2022-11-07 11:00:52.998 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_8
+2022-11-07 11:00:53.007 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_6
+2022-11-07 11:00:53.010 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_5
+2022-11-07 11:00:53.014 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_8
+2022-11-07 11:00:53.017 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_8
+2022-11-07 11:00:53.019 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_9
+2022-11-07 11:00:53.024 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_7
+2022-11-07 11:00:53.026 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_6
+2022-11-07 11:00:53.030 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_9
+2022-11-07 11:00:53.032 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_9
+2022-11-07 11:00:53.033 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_10
+2022-11-07 11:00:53.037 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_8
+2022-11-07 11:00:53.152 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_10
+2022-11-07 11:00:53.154 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_10
+2022-11-07 11:00:53.157 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_11
+2022-11-07 11:00:53.206 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_11
+2022-11-07 11:00:53.208 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_11
+2022-11-07 11:00:53.210 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_12
+2022-11-07 11:00:53.233 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: nativePayUsingPOST_1
+2022-11-07 11:00:53.258 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingGET_1
+2022-11-07 11:00:53.259 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingHEAD_1
+2022-11-07 11:00:53.260 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPOST_1
+2022-11-07 11:00:53.262 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPUT_1
+2022-11-07 11:00:53.263 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPATCH_1
+2022-11-07 11:00:53.264 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingDELETE_1
+2022-11-07 11:00:53.266 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingOPTIONS_1
+2022-11-07 11:00:53.269 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingTRACE_1
+2022-11-07 11:00:53.285 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_12
+2022-11-07 11:00:53.287 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_12
+2022-11-07 11:00:53.290 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_13
+2022-11-07 11:00:53.313 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_13
+2022-11-07 11:00:53.315 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_14
+2022-11-07 11:00:53.318 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_9
+2022-11-07 11:00:53.974 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-11-07 11:00:53.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-24501"]
+2022-11-07 11:00:54.003 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 24501 (http) with context path '/xgateway/web'
+2022-11-07 11:00:54.007 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.169","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":24501,"scheduled":false,"serviceName":"DEFAULT_GROUP@@xgateway-service-provider-lhc","stopped":false,"weight":1.0} to beat map.
+2022-11-07 11:00:54.096 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd registering service DEFAULT_GROUP@@xgateway-service-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.169","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":24501,"weight":1.0}
+2022-11-07 11:00:54.166 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xgateway-service-provider-lhc 192.168.31.169:24501 register finished
+2022-11-07 11:00:54.597 [main] INFO  c.b.xgateway.provider.XgatewayProviderApplication - Started XgatewayProviderApplication in 27.696 seconds (JVM running for 30.335)
+2022-11-07 11:00:54.601 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-service-provider-lhc.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:00:54.602 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-service-provider-lhc.properties, group=DEFAULT_GROUP, cnt=1
+2022-11-07 11:00:54.602 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-mysql.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:00:54.602 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-mysql.properties, group=LOCAL_GROUP, cnt=1
+2022-11-07 11:00:54.602 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-service-provider-lhc+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:00:54.602 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-service-provider-lhc, group=DEFAULT_GROUP, cnt=1
+2022-11-07 11:00:54.603 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] redis.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:00:54.603 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=redis.properties, group=LOCAL_GROUP, cnt=1
+2022-11-07 11:00:54.603 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] app.properties+XGATEWAY_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:00:54.603 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=app.properties, group=XGATEWAY_GROUP, cnt=1
+2022-11-07 11:04:55.810 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-11-07 11:04:55.811 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@xgateway-service-provider-lhc:192.168.31.169:24501 from beat map.
+2022-11-07 11:04:55.811 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd deregistering service DEFAULT_GROUP@@xgateway-service-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.31.169","ipDeleteTimeout":30000,"metadata":{},"port":24501,"weight":1.0}
+2022-11-07 11:04:55.873 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-11-07 11:04:55.874 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-07 11:04:57.026 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-07 11:04:57.050 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-07 11:05:06.945 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\huach\nacos\config
+2022-11-07 11:05:06.978 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2022-11-07 11:05:07.067 [main] INFO  com.alibaba.nacos.client.config.utils.JVMUtil - isMultiInstance:false
+2022-11-07 11:05:07.320 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,XGATEWAY_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-mysql.properties,LOCAL_GROUP'}]
+2022-11-07 11:05:07.327 [main] INFO  c.b.xgateway.provider.XgatewayProviderApplication - No active profile set, falling back to default profiles: default
+2022-11-07 11:05:08.670 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-07 11:05:08.673 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-11-07 11:05:08.728 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2022-11-07 11:05:09.023 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f4c05557-1879-3001-8b56-5a2cd5a8431b
+2022-11-07 11:05:09.111 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.bairh.xgateway.provider.config.ShiroConfig$$EnhancerBySpringCGLIB$$b16e5b70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:09.389 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:09.395 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [com.bairh.xgateway.provider.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$2e94be8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:09.403 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:09.412 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$96c99b48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:09.414 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$72ad2420] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:09.416 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-07 11:05:09.489 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:12.826 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-07 11:05:12.827 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.854 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.861 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.862 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysMenuDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.864 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysMenuDao' of type [com.sun.proxy.$Proxy115] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.868 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.869 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserDao' of type [com.sun.proxy.$Proxy116] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.872 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserTokenDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserTokenDao' of type [com.sun.proxy.$Proxy117] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroServiceImpl' of type [com.bairh.xgateway.provider.modules.sys.service.impl.ShiroServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:14.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'OAuth2Realm' of type [com.bairh.xgateway.provider.modules.sys.oauth2.OAuth2Realm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:15.419 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:15.518 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:15.589 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-07 11:05:16.410 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 24501 (http)
+2022-11-07 11:05:16.422 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-24501"]
+2022-11-07 11:05:16.423 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-07 11:05:16.423 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-11-07 11:05:16.668 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/xgateway/web] - Initializing Spring embedded WebApplicationContext
+2022-11-07 11:05:16.668 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9315 ms
+2022-11-07 11:05:21.113 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 加载公众号配置...
+2022-11-07 11:05:21.367 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 加载到1条公众号配置
+2022-11-07 11:05:21.612 [main] INFO  c.b.x.p.m.wx.service.impl.WxAccountServiceImpl - 公众号配置加载完成
+2022-11-07 11:05:22.674 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2022-11-07 11:05:22.676 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2022-11-07 11:05:24.152 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-07 11:05:24.267 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-07 11:05:24.281 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-11-07 11:05:24.675 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-07 11:05:25.922 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2022-11-07 11:05:25.933 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-11-07 11:05:25.934 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2022-11-07 11:05:25.935 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-11-07 11:05:29.907 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-11-07 11:05:29.960 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-11-07 11:05:30.085 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-11-07 11:05:30.720 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getQuestionsUsingGET_1
+2022-11-07 11:05:30.847 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2022-11-07 11:05:30.853 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_1
+2022-11-07 11:05:30.863 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2022-11-07 11:05:30.887 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2022-11-07 11:05:30.993 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2022-11-07 11:05:31.006 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_2
+2022-11-07 11:05:31.012 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_2
+2022-11-07 11:05:31.029 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2022-11-07 11:05:31.071 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2022-11-07 11:05:31.160 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_3
+2022-11-07 11:05:31.166 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_3
+2022-11-07 11:05:31.176 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_3
+2022-11-07 11:05:31.187 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2022-11-07 11:05:31.194 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_2
+2022-11-07 11:05:31.206 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_4
+2022-11-07 11:05:31.274 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_4
+2022-11-07 11:05:31.285 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_4
+2022-11-07 11:05:31.303 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_5
+2022-11-07 11:05:31.362 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2022-11-07 11:05:31.371 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_3
+2022-11-07 11:05:31.395 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_5
+2022-11-07 11:05:31.404 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_6
+2022-11-07 11:05:31.505 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_6
+2022-11-07 11:05:31.513 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_5
+2022-11-07 11:05:31.527 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_7
+2022-11-07 11:05:31.535 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2022-11-07 11:05:31.539 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectUsingGET_1
+2022-11-07 11:05:31.544 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_4
+2022-11-07 11:05:31.556 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_7
+2022-11-07 11:05:31.561 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_6
+2022-11-07 11:05:31.566 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_7
+2022-11-07 11:05:31.571 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_8
+2022-11-07 11:05:31.599 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_6
+2022-11-07 11:05:31.604 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_5
+2022-11-07 11:05:31.613 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_8
+2022-11-07 11:05:31.617 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_8
+2022-11-07 11:05:31.623 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_9
+2022-11-07 11:05:31.638 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_7
+2022-11-07 11:05:31.642 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_6
+2022-11-07 11:05:31.649 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_9
+2022-11-07 11:05:31.654 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_9
+2022-11-07 11:05:31.659 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_10
+2022-11-07 11:05:31.668 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_8
+2022-11-07 11:05:31.975 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_10
+2022-11-07 11:05:31.980 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_10
+2022-11-07 11:05:31.986 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_11
+2022-11-07 11:05:32.125 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_11
+2022-11-07 11:05:32.130 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_11
+2022-11-07 11:05:32.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_12
+2022-11-07 11:05:32.211 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: nativePayUsingPOST_1
+2022-11-07 11:05:32.279 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingGET_1
+2022-11-07 11:05:32.281 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingHEAD_1
+2022-11-07 11:05:32.283 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPOST_1
+2022-11-07 11:05:32.287 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPUT_1
+2022-11-07 11:05:32.290 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingPATCH_1
+2022-11-07 11:05:32.293 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingDELETE_1
+2022-11-07 11:05:32.297 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingOPTIONS_1
+2022-11-07 11:05:32.300 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: wxNotifyUsingTRACE_1
+2022-11-07 11:05:32.329 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_12
+2022-11-07 11:05:32.334 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: infoUsingGET_12
+2022-11-07 11:05:32.338 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_13
+2022-11-07 11:05:32.382 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_13
+2022-11-07 11:05:32.386 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_14
+2022-11-07 11:05:32.392 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_9
+2022-11-07 11:05:33.004 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-11-07 11:05:33.015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-24501"]
+2022-11-07 11:05:33.102 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 24501 (http) with context path '/xgateway/web'
+2022-11-07 11:05:33.111 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.169","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":24501,"scheduled":false,"serviceName":"DEFAULT_GROUP@@xgateway-service-provider-lhc","stopped":false,"weight":1.0} to beat map.
+2022-11-07 11:05:33.304 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd registering service DEFAULT_GROUP@@xgateway-service-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.169","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":24501,"weight":1.0}
+2022-11-07 11:05:33.382 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xgateway-service-provider-lhc 192.168.31.169:24501 register finished
+2022-11-07 11:05:34.143 [main] INFO  c.b.xgateway.provider.XgatewayProviderApplication - Started XgatewayProviderApplication in 30.038 seconds (JVM running for 32.311)
+2022-11-07 11:05:34.150 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-service-provider-lhc.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:05:34.152 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-service-provider-lhc.properties, group=DEFAULT_GROUP, cnt=1
+2022-11-07 11:05:34.154 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-mysql.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:05:34.154 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-mysql.properties, group=LOCAL_GROUP, cnt=1
+2022-11-07 11:05:34.154 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] xgateway-service-provider-lhc+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:05:34.155 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=xgateway-service-provider-lhc, group=DEFAULT_GROUP, cnt=1
+2022-11-07 11:05:34.156 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] redis.properties+LOCAL_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:05:34.156 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=redis.properties, group=LOCAL_GROUP, cnt=1
+2022-11-07 11:05:34.157 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] app.properties+XGATEWAY_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 11:05:34.158 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=app.properties, group=XGATEWAY_GROUP, cnt=1
+2022-11-07 14:03:54.807 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [polling-resp] config changed. dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 14:03:54.956 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [data-received] dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, md5=49b2a7a217e25e29283d10d3af870e9d, content=# 1、swagger配置 swagger启用警用配置默认为true 生产环境建议设置为false 关闭swagger
+swagger.enable=true
+
+#支付小程序appid
+weixin....
+2022-11-07 14:03:54.980 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-context] dataId=app.properties, group=XGATEWAY_GROUP, md5=49b2a7a217e25e29283d10d3af870e9d
+2022-11-07 14:03:56.431 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,XGATEWAY_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-mysql.properties,LOCAL_GROUP'}]
+2022-11-07 14:03:56.435 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2022-11-07 14:03:56.473 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - Started application in 1.389 seconds (JVM running for 10734.641)
+2022-11-07 14:03:56.630 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [nuonuo.test.url]
+2022-11-07 14:03:56.630 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-ok] dataId=app.properties, group=XGATEWAY_GROUP, md5=49b2a7a217e25e29283d10d3af870e9d, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 14:03:56.630 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-listener] time cost=1654ms in ClientWorker, dataId=app.properties, group=XGATEWAY_GROUP, md5=49b2a7a217e25e29283d10d3af870e9d, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 15:41:58.069 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [polling-resp] config changed. dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 15:41:58.195 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [data-received] dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, md5=c910b42c1942fef72d69ba057ebe15e6, content=# 1、swagger配置 swagger启用警用配置默认为true 生产环境建议设置为false 关闭swagger
+swagger.enable=true
+
+#支付小程序appid
+weixin....
+2022-11-07 15:41:58.196 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-context] dataId=app.properties, group=XGATEWAY_GROUP, md5=c910b42c1942fef72d69ba057ebe15e6
+2022-11-07 15:41:59.672 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,XGATEWAY_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-mysql.properties,LOCAL_GROUP'}]
+2022-11-07 15:41:59.676 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2022-11-07 15:41:59.703 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - Started application in 1.41 seconds (JVM running for 16617.872)
+2022-11-07 15:41:59.786 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [nuonuo.appSecret, nuonuo.appKey]
+2022-11-07 15:41:59.787 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-ok] dataId=app.properties, group=XGATEWAY_GROUP, md5=c910b42c1942fef72d69ba057ebe15e6, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 15:41:59.787 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-listener] time cost=1591ms in ClientWorker, dataId=app.properties, group=XGATEWAY_GROUP, md5=c910b42c1942fef72d69ba057ebe15e6, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 16:54:23.680 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [polling-resp] config changed. dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 16:54:23.757 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [data-received] dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, md5=cb51ce23d4cef4877dc2250eaf03a447, content=# 1、swagger配置 swagger启用警用配置默认为true 生产环境建议设置为false 关闭swagger
+swagger.enable=true
+
+#支付小程序appid
+weixin....
+2022-11-07 16:54:23.758 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-context] dataId=app.properties, group=XGATEWAY_GROUP, md5=cb51ce23d4cef4877dc2250eaf03a447
+2022-11-07 16:54:25.086 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,XGATEWAY_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-mysql.properties,LOCAL_GROUP'}]
+2022-11-07 16:54:25.091 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2022-11-07 16:54:25.115 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - Started application in 1.31 seconds (JVM running for 20963.284)
+2022-11-07 16:54:25.216 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [nuonuo.appSecret, nuonuo.appKey]
+2022-11-07 16:54:25.216 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-ok] dataId=app.properties, group=XGATEWAY_GROUP, md5=cb51ce23d4cef4877dc2250eaf03a447, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 16:54:25.217 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-listener] time cost=1460ms in ClientWorker, dataId=app.properties, group=XGATEWAY_GROUP, md5=cb51ce23d4cef4877dc2250eaf03a447, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 16:59:45.672 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [polling-resp] config changed. dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 16:59:45.737 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [data-received] dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, md5=6a2aaf0f2ef2e69633e37568ae6bf281, content=# 1、swagger配置 swagger启用警用配置默认为true 生产环境建议设置为false 关闭swagger
+swagger.enable=true
+
+#支付小程序appid
+weixin....
+2022-11-07 16:59:45.737 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-context] dataId=app.properties, group=XGATEWAY_GROUP, md5=6a2aaf0f2ef2e69633e37568ae6bf281
+2022-11-07 16:59:46.961 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,XGATEWAY_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-mysql.properties,LOCAL_GROUP'}]
+2022-11-07 16:59:46.963 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2022-11-07 16:59:47.010 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - Started application in 1.269 seconds (JVM running for 21285.178)
+2022-11-07 16:59:47.089 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [nuonuo.appSecret, nuonuo.appKey]
+2022-11-07 16:59:47.090 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-ok] dataId=app.properties, group=XGATEWAY_GROUP, md5=6a2aaf0f2ef2e69633e37568ae6bf281, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 16:59:47.090 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-listener] time cost=1353ms in ClientWorker, dataId=app.properties, group=XGATEWAY_GROUP, md5=6a2aaf0f2ef2e69633e37568ae6bf281, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 17:55:15.789 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [polling-resp] config changed. dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-11-07 17:55:15.879 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [data-received] dataId=app.properties, group=XGATEWAY_GROUP, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, md5=a08168814d2f1fe20b5e61277ebb836f, content=# 1、swagger配置 swagger启用警用配置默认为true 生产环境建议设置为false 关闭swagger
+swagger.enable=true
+
+#支付小程序appid
+weixin....
+2022-11-07 17:55:15.879 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-context] dataId=app.properties, group=XGATEWAY_GROUP, md5=a08168814d2f1fe20b5e61277ebb836f
+2022-11-07 17:55:17.229 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-service-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,XGATEWAY_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,LOCAL_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xgateway-mysql.properties,LOCAL_GROUP'}]
+2022-11-07 17:55:17.235 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2022-11-07 17:55:17.277 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  org.springframework.boot.SpringApplication - Started application in 1.323 seconds (JVM running for 24615.446)
+2022-11-07 17:55:17.394 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [nuonuo.appSecret, nuonuo.appKey]
+2022-11-07 17:55:17.394 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-ok] dataId=app.properties, group=XGATEWAY_GROUP, md5=a08168814d2f1fe20b5e61277ebb836f, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 
+2022-11-07 17:55:17.395 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-localhost_8848-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [notify-listener] time cost=1516ms in ClientWorker, dataId=app.properties, group=XGATEWAY_GROUP, md5=a08168814d2f1fe20b5e61277ebb836f, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@4152007e 

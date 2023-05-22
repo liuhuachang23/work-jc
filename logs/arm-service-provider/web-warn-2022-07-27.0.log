@@ -1,0 +1,86 @@
+2022-07-27 09:57:28.827 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc] & group[DEFAULT_GROUP]
+2022-07-27 09:57:31.862 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc.properties] & group[DEFAULT_GROUP]
+2022-07-27 09:57:33.174 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-27 09:57:33.176 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-27 09:57:36.877 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-27 09:57:36.878 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2022-07-27 09:57:49.190 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc] & group[DEFAULT_GROUP]
+2022-07-27 09:57:49.234 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc.properties] & group[DEFAULT_GROUP]
+2022-07-27 09:57:50.267 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-27 09:57:50.268 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-27 09:57:59.307 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 09:57:59.312 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 10:21:11.585 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2022-07-27 10:21:11.585 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-27 10:21:11.586 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2022-07-27 10:21:11.586 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2022-07-27 10:21:18.057 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc] & group[DEFAULT_GROUP]
+2022-07-27 10:21:18.107 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc.properties] & group[DEFAULT_GROUP]
+2022-07-27 10:21:19.201 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-27 10:21:19.202 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-27 10:21:27.567 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 10:21:27.571 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 10:21:50.959 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-27 10:21:50.959 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2022-07-27 10:21:50.960 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2022-07-27 10:21:50.960 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2022-07-27 10:21:56.810 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc] & group[DEFAULT_GROUP]
+2022-07-27 10:21:56.870 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc.properties] & group[DEFAULT_GROUP]
+2022-07-27 10:21:57.884 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-27 10:21:57.886 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-27 10:22:06.677 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 10:22:06.681 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 10:24:17.873 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-27 10:24:17.873 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2022-07-27 10:24:17.874 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2022-07-27 10:24:17.874 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2022-07-27 10:24:25.691 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc] & group[DEFAULT_GROUP]
+2022-07-27 10:24:25.737 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc.properties] & group[DEFAULT_GROUP]
+2022-07-27 10:24:26.900 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-27 10:24:26.902 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-27 10:24:35.790 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 10:24:35.795 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 10:42:51.011 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-27 10:42:51.010 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2022-07-27 10:42:51.011 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2022-07-27 10:42:51.011 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2022-07-27 10:42:59.009 [SpringContextShutdownHook] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-07-27 13:44:51.776 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider] & group[DEFAULT_GROUP]
+2022-07-27 13:44:51.822 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider.properties] & group[DEFAULT_GROUP]
+2022-07-27 13:44:52.908 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-27 13:44:52.909 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-27 13:45:01.407 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 13:45:01.411 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 14:03:17.640 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2022-07-27 14:03:17.640 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-27 14:03:17.644 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2022-07-27 14:03:17.648 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2022-07-27 14:03:26.960 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc] & group[DEFAULT_GROUP]
+2022-07-27 14:03:27.007 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc.properties] & group[DEFAULT_GROUP]
+2022-07-27 14:03:28.106 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-27 14:03:28.108 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-27 14:03:36.534 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 14:03:36.538 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 14:03:45.244 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2022-07-27 14:03:45.244 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-27 14:03:45.245 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2022-07-27 14:03:45.245 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2022-07-27 14:36:26.367 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc] & group[DEFAULT_GROUP]
+2022-07-27 14:36:26.414 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[enn-serivice-provider-lhc.properties] & group[DEFAULT_GROUP]
+2022-07-27 14:36:27.518 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[ProjectActivitiesMapper]' package. Please check your configuration.
+2022-07-27 14:36:27.519 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[EnlargeArmyMapper]' package. Please check your configuration.
+2022-07-27 14:36:36.157 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 14:36:36.162 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-27 16:33:30.597 [springSessionRedisMessageListenerContainer-1824] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session bd53cc26-3802-4128-a606-5849be99138e
+2022-07-27 16:33:30.642 [springSessionRedisMessageListenerContainer-1829] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session e1ff7fb0-21a8-474d-ab05-5f7387595682
+2022-07-27 16:33:30.642 [springSessionRedisMessageListenerContainer-1835] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session 7d9d34cd-1734-4f56-817f-eaeec78b533d
+2022-07-27 16:33:30.642 [springSessionRedisMessageListenerContainer-1825] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session 8ef1d523-714f-41e5-9476-116c32f6b38c
+2022-07-27 16:33:30.642 [springSessionRedisMessageListenerContainer-1828] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session 827134bc-8b14-4a59-a920-939b9083b310
+2022-07-27 16:33:30.643 [springSessionRedisMessageListenerContainer-1844] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session c98061ae-a645-4283-8c82-e7d73a55546e
+2022-07-27 16:33:30.642 [springSessionRedisMessageListenerContainer-1830] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session fe6520e8-3042-4c6d-8694-615d4d308dab
+2022-07-27 16:33:30.642 [springSessionRedisMessageListenerContainer-1833] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session 831adeff-5753-4de3-9282-966b18f1597d
+2022-07-27 16:33:30.643 [springSessionRedisMessageListenerContainer-1837] WARN  o.s.s.data.redis.RedisIndexedSessionRepository - Unable to publish SessionDestroyedEvent for session dd4d6138-59ca-40d9-8378-d24bbabfe70e
+2022-07-27 19:59:34.502 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2022-07-27 19:59:34.502 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2022-07-27 19:59:34.514 [Thread-13] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2022-07-27 19:59:34.529 [Thread-2] WARN  com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end

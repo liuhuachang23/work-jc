@@ -1,0 +1,73 @@
+2022-10-31 15:35:03.597 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\huach\nacos\config
+2022-10-31 15:35:03.664 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2022-10-31 15:35:03.877 [main] INFO  com.alibaba.nacos.client.config.utils.JVMUtil - isMultiInstance:false
+2022-10-31 15:35:04.761 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dc-chan-provider-lhc.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-dc-chan-provider-lhc,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app.properties,module-service-provider'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mysql.properties,DEFAULT_GROUP'}]
+2022-10-31 15:35:04.848 [main] INFO  c.b.chan.service.provider.ChenProviderApplication - No active profile set, falling back to default profiles: default
+2022-10-31 15:35:06.581 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-10-31 15:35:06.584 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-10-31 15:35:06.629 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2022-10-31 15:35:06.947 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4a44ff0e-389b-36b1-b716-a41efd18f19d
+2022-10-31 15:35:07.252 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-31 15:35:07.625 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 31001 (http)
+2022-10-31 15:35:07.637 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-31001"]
+2022-10-31 15:35:07.638 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-31 15:35:07.638 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-10-31 15:35:07.824 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/chan] - Initializing Spring embedded WebApplicationContext
+2022-10-31 15:35:07.824 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2935 ms
+2022-10-31 15:35:08.253 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2022-10-31 15:35:12.010 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-10-31 15:35:15.436 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2022-10-31 15:35:15.438 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2022-10-31 15:35:16.799 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-31 15:35:16.806 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-31 15:35:16.946 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-31 15:35:17.564 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2022-10-31 15:35:17.570 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-10-31 15:35:17.571 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2022-10-31 15:35:17.572 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2022-10-31 15:35:18.574 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-10-31 15:35:18.595 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-10-31 15:35:18.609 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-10-31 15:35:18.826 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: detailUsingPOST_1
+2022-10-31 15:35:19.146 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_1
+2022-10-31 15:35:19.151 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_1
+2022-10-31 15:35:19.174 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2022-10-31 15:35:19.186 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_2
+2022-10-31 15:35:19.188 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_2
+2022-10-31 15:35:19.191 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2022-10-31 15:35:19.220 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2022-10-31 15:35:19.501 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_1
+2022-10-31 15:35:19.503 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: allListUsingGET_1
+2022-10-31 15:35:19.507 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: editUsingPUT_1
+2022-10-31 15:35:19.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getInfoUsingGET_1
+2022-10-31 15:35:19.510 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_2
+2022-10-31 15:35:19.565 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: treeListByOrgIdUsingGET_1
+2022-10-31 15:35:19.638 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_3
+2022-10-31 15:35:19.668 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2022-10-31 15:35:19.683 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_2
+2022-10-31 15:35:19.732 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_3
+2022-10-31 15:35:19.778 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateSupplierUsingPOST_1
+2022-10-31 15:35:20.468 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-10-31 15:35:20.476 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-31001"]
+2022-10-31 15:35:20.497 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 31001 (http) with context path '/chan'
+2022-10-31 15:35:20.502 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.169","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":31001,"scheduled":false,"serviceName":"DEFAULT_GROUP@@dc-chan-provider-lhc","stopped":false,"weight":1.0} to beat map.
+2022-10-31 15:35:20.613 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd registering service DEFAULT_GROUP@@dc-chan-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.169","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":31001,"weight":1.0}
+2022-10-31 15:35:20.912 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dc-chan-provider-lhc 192.168.31.169:31001 register finished
+2022-10-31 15:35:21.582 [main] INFO  c.b.chan.service.provider.ChenProviderApplication - Started ChenProviderApplication in 21.72 seconds (JVM running for 24.409)
+2022-10-31 15:35:21.616 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] app.properties+module-service-provider+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-31 15:35:21.617 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=app.properties, group=module-service-provider, cnt=1
+2022-10-31 15:35:21.618 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] dc-chan-provider-lhc.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-31 15:35:21.619 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=dc-chan-provider-lhc.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-31 15:35:21.626 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] mysql.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-31 15:35:21.627 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=mysql.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-31 15:35:21.628 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] redis.properties+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-31 15:35:21.628 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=redis.properties, group=DEFAULT_GROUP, cnt=1
+2022-10-31 15:35:21.629 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [subscribe] dc-chan-provider-lhc+DEFAULT_GROUP+6c1230e4-aef6-4d65-b7e0-1fac133250cd
+2022-10-31 15:35:21.629 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.1.20_32474-6c1230e4-aef6-4d65-b7e0-1fac133250cd] [add-listener] ok, tenant=6c1230e4-aef6-4d65-b7e0-1fac133250cd, dataId=dc-chan-provider-lhc, group=DEFAULT_GROUP, cnt=1
+2022-10-31 19:36:18.690 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-10-31 19:36:18.710 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@dc-chan-provider-lhc:192.168.31.169:31001 from beat map.
+2022-10-31 19:36:18.714 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] 6c1230e4-aef6-4d65-b7e0-1fac133250cd deregistering service DEFAULT_GROUP@@dc-chan-provider-lhc with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.31.169","ipDeleteTimeout":30000,"metadata":{},"port":31001,"weight":1.0}
+2022-10-31 19:36:18.982 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-10-31 19:36:18.992 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-31 19:36:19.410 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-10-31 19:36:19.550 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,48 @@
+2022-08-01 08:51:53.482 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-enn-serivice-provider.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-enn-serivice-provider,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mysql.properties,DEFAULT_GROUP'}]
+2022-08-01 08:51:53.508 [main] INFO  com.bairh.enn.provider.EnnProviderApplication - No active profile set, falling back to default profiles: default
+2022-08-01 08:51:54.637 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-01 08:51:54.640 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-01 08:51:54.689 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2022-08-01 08:51:54.936 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ddde3483-08f2-3d76-b58e-4c969064ad7e
+2022-08-01 08:51:55.388 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 29011 (http)
+2022-08-01 08:51:55.399 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-29011"]
+2022-08-01 08:51:55.400 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-01 08:51:55.400 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-08-01 08:51:55.621 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/enn] - Initializing Spring embedded WebApplicationContext
+2022-08-01 08:51:55.621 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2076 ms
+2022-08-01 08:51:55.982 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2022-08-01 08:52:22.113 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-enn-serivice-provider.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-enn-serivice-provider,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-redis.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-mysql.properties,DEFAULT_GROUP'}]
+2022-08-01 08:52:22.124 [main] INFO  com.bairh.enn.provider.EnnProviderApplication - No active profile set, falling back to default profiles: default
+2022-08-01 08:52:22.955 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-01 08:52:22.957 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-01 08:52:22.981 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2022-08-01 08:52:23.164 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ddde3483-08f2-3d76-b58e-4c969064ad7e
+2022-08-01 08:52:23.532 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 29011 (http)
+2022-08-01 08:52:23.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-29011"]
+2022-08-01 08:52:23.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-01 08:52:23.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-08-01 08:52:23.754 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/enn] - Initializing Spring embedded WebApplicationContext
+2022-08-01 08:52:23.754 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1597 ms
+2022-08-01 08:52:24.046 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2022-08-01 08:52:29.452 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-08-01 08:52:31.845 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-01 08:52:31.849 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-08-01 08:52:31.942 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-01 08:52:32.684 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-08-01 08:52:33.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-29011"]
+2022-08-01 08:52:33.612 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 29011 (http) with context path '/enn'
+2022-08-01 08:52:33.651 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP enn-serivice-provider 192.168.169.212:29011 register finished
+2022-08-01 08:52:34.072 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-01 08:52:34.091 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-08-01 08:52:34.101 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-01 08:52:34.250 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: commentUsingPOST_1
+2022-08-01 08:52:34.298 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: viewDetailsUsingPOST_1
+2022-08-01 08:52:34.312 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: awardMedalsUsingPOST_1
+2022-08-01 08:52:34.314 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: awardMedalsUsingPOST_2
+2022-08-01 08:52:34.326 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: exportProjectInformationUsingGET_1
+2022-08-01 08:52:34.363 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addWikiUsingPOST_1
+2022-08-01 08:52:34.380 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: projectDetailUsingGET_1
+2022-08-01 08:52:34.410 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addCommentUsingPOST_1
+2022-08-01 08:52:34.425 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionPageUsingPOST_1
+2022-08-01 08:52:35.072 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-08-01 08:52:35.081 [main] INFO  com.bairh.enn.provider.EnnProviderApplication - Started EnnProviderApplication in 15.094 seconds (JVM running for 16.536)

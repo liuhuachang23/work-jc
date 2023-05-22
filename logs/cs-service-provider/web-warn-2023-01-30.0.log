@@ -1,0 +1,10 @@
+2023-01-30 13:46:36.499 [main] WARN  c.a.cloud.nacos.parser.NacosDataPropertiesParser - the config data is invalid //转采购订单OA url
+2023-01-30 13:46:36.963 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[cs-service-provider-lhc] & group[DEFAULT_GROUP]
+2023-01-30 13:46:37.198 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[cs-service-provider-lhc.properties] & group[DEFAULT_GROUP]
+2023-01-30 13:46:59.655 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-01-30 13:46:59.668 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-01-30 14:43:33.687 [main] WARN  c.a.cloud.nacos.parser.NacosDataPropertiesParser - the config data is invalid //转采购订单OA url
+2023-01-30 14:43:34.076 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[cs-service-provider-lhc] & group[DEFAULT_GROUP]
+2023-01-30 14:43:34.273 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[cs-service-provider-lhc.properties] & group[DEFAULT_GROUP]
+2023-01-30 14:43:52.575 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2023-01-30 14:43:52.584 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
